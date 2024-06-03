@@ -1,0 +1,53 @@
+@media(max-width:479.98px){
+    .headerPrincipal{
+        height: 70px;
+    }
+    header{
+        height: 70px;
+    }
+    .content{
+        width: 98%;
+    }
+    nav ul li{
+        height: 36px;
+        width: 19.4%;
+        margin-left: 2px;
+    }
+    .headerPrincipalDir a{
+        margin: 0;
+        text-decoration: none;
+        display: flex;
+        float: left;
+        width: 100px;
+        background-color: #4ea7a8;
+        margin-left: 5px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        border-radius: 10px;
+    }
+    .subtitulo{
+        display: flex;
+        margin-top: 70px;
+        background-color: #4ea7a8;
+        color:#f8efed;
+        width:50%;
+        margin-left: 20px;
+        border-radius: 5px;
+        text-align: center;
+        height: 65px;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagemlogo img{
+        width: 70%;
+        margin-left: 40px;
+    }
+    .containerquadro{
+        width: 50%;
+    }
+    .containertexto{
+        height: 90px;
+    }
+}

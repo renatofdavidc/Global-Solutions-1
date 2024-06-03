@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleGERAL.css">
+    <link rel="stylesheet" href="css/styleXS.css">
+    <link rel="stylesheet" href="css/styleXL.css">
+    <link rel="stylesheet" href="css/styleMD.css">
+    <script src="script.js" defer></script> <!-- Adicionado defer para garantir que o script carregue após o HTML -->
+    <title>Big Blue</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="main">
+            <header>
+                <div class="content">
+                    <div class="headerPrincipal">
+                        <div class="headerPrincipalEsq"><h1>Big Blue</h1></div>
+                        <div class="headerPrincipalDir">
+                            <a href="login.html">Cadastro</a>
+                        </div>
+                    </div>
+                </div>
+                <nav>
+                    <div class="content">
+                        <ul>
+                            <li><a href="#" onclick="rolarPara('wrapper')">Página inicial</a></li>
+                            <li><a href="#" onclick="rolarPara('informacoes')">O que é a Big Blue?</a></li>
+                            <li><a href="#" onclick="rolarPara('denuncia')">Denunciar poluição</a></li>
+                            <li><a href="#" onclick="rolarPara('integrantes')">Integrantes</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <section><div class="subtitulo"><h3>Unidos Pela Vida Marinha, Unidos Pelo Futuro</h3></div></section>
+        <div class="containerimgtxt">
+            <div class="container">
+                <article><div class="texto">
+                    A economia azul representa um compromisso com a utilização sustentável dos recursos marinhos, promovendo o desenvolvimento econômico sem comprometer a saúde dos nossos oceanos. A preservação dos mares é essencial para a biodiversidade, o clima e o bem-estar das futuras gerações.
+                    <br>
+                    Somos um grupo de estudantes comprometidos com a causa ambiental: Renato David, Gabriel Jablonski e Pedro Lucas. Juntos, criamos o Big Blue, uma iniciativa dedicada à proteção e sustentabilidade dos oceanos. Nosso objetivo é conscientizar e mobilizar comunidades e indivíduos para atuarem ativamente na preservação dos mares.
+                    <br>
+                    No Big Blue, acreditamos que a informação e a ação são pilares fundamentais para a mudança. Queremos capacitar e inspirar todos a se envolverem na proteção da vida marinha, promovendo um impacto positivo e duradouro. Junte-se a nós nessa jornada para um futuro azul e sustentável, onde a vida nos oceanos é protegida e valorizada por todos.
+                </div></article>
+            </div>
+            <div class="containerimg"><figure><div class="imagemlogo"><img src="img/WhatsApp Image 2024-05-29 at 12.30.20 PM.jpeg" alt="Logo Big Blue" title="Logo do Big Blue"></div></figure></div>
+        </div>
+        <section><div class="subtinformacoes"><h3>O que é a Big Blue?</h3></div></section>
+        <div class="containerinfo" id="informacoes"> <!-- Adicionado ID aqui -->
+            <article><div class="informacoes">
+                    O Big Blue é uma iniciativa inovadora dedicada à proteção e sustentabilidade dos oceanos, criada por um grupo de estudantes comprometidos com a causa ambiental: Renato David, Gabriel Jablonski e Pedro Lucas. Nosso objetivo é conscientizar, educar e mobilizar a sociedade para a preservação dos recursos marinhos, promovendo um desenvolvimento sustentável que não comprometa a saúde dos nossos oceanos.
+                    <br>
+                    Funcionalidades do Big Blue:
+                    <br><br>
+                    1. Chatbot Informativo: Nosso chatbot está disponível para tirar dúvidas dos usuários sobre a economia azul e sustentabilidade, oferecendo informações atualizadas e relevantes sobre como proteger e preservar os oceanos.
+                    <br>
+                    2. Aba de Denúncias: Oferecemos uma plataforma onde os usuários podem denunciar atividades poluentes. Isso inclui denunciar empresas que estão poluindo, resíduos poluentes encontrados, e praias e mares sujos. Cada denúncia é um passo importante na luta contra a poluição marinha.
+                    <br>
+                    3. Verificação de Espécies em Extinção: Disponibilizamos uma ferramenta para que os usuários possam verificar quais espécies marinhas estão em risco de extinção. Este recurso visa aumentar a conscientização sobre a biodiversidade marinha e a importância de sua preservação.
+                    <br><br>
+                    Convidamos todos a se juntarem à nossa causa. No Big Blue, acreditamos que cada pessoa pode fazer a diferença. Seja denunciando poluentes, esclarecendo dúvidas ou aprendendo mais sobre as espécies ameaçadas, todos podem contribuir para um oceano mais limpo e saudável. Junte-se a nós e faça parte de um movimento global em prol de um futuro azul e sustentável.
+            </div></article>
+        </div>
+        <!-- Adicione IDs semelhantes para as outras seções -->
+        <section><div class="subtform" id="denuncia"><h3>Denunciar Poluição</h3></div></section>
+        <div class="containerform">
+            <form action="">
+                <div class="textoform">Para denunciar poluição encontrada, por favor preencha o formulário a seguir: </div>
+                <div class="containerinput">
+                    <label for="estados">Escolha um estado:</label><br>
+                    <select name="estados" id="estados">
+                        <option value="Selecionar" disabled selected></option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                    <br><br>
+                    <label for="cidade">Digite o nome da cidade:</label>
+                    <input type="text" name="cidade" id="cidade">
+                    <br><br>
+                    <label for="praia">Digite o nome da praia:</label><br>
+                    <input type="text" name="praia" id="praia">
+                    <br><br>
+                    <label for="denuncia">Digite o que foi encontrado na praia:</label>
+                    <input type="text" name="denuncia" id="denuncia">
+                    <br><br>
+                    <label for="comentarios">Comentários adicionais: </label><br>
+                    <input type="text" name="comentarios" id="comentarios">
+                    <br><br>
+                    <button type="submit">Enviar denúncia</button>
+                </div>
+            </form>
+                </div>
+            </form>
+        </div>
+        <section><div class="subtform" id="integrantes"><h3>Integrantes</h3></div></section>
+        <article><div class="containerintegrantes">
+            <div class="nomes">
+                <div id="nomerenato">Renato de Freitas David Campiteli RM: 555627</div>
+                <div id="imagemrenato"><img src="fotos/Foto renato.jpeg" alt="Foto Renato"></div>
+            </div>
+            <div class="nomes">
+                <div id="nomejaba">Gabriel Santos Jablonski RM: 555452</div>
+                <div id="imagemjaba"><img src="fotos/Foto Jaba.jpeg" alt="Foto Jaba"></div>
+            </div>
+            <div class="nomes">
+                <div id="nomepedro"> Pedro Lucas de Oliveira Bezerra RM: 558439</div>
+                <div id="imagempedro"><img src="fotos/Foto Pedro.jpeg" alt="Foto Pedro"></div>
+            </div>
+        </div></article>
+        <footer>
+            <div id="content">
+                <div id="informacoesFooter">
+                    Direitos reservados <br>
+                    Gabriel Santos Jablonski RM: 555452<br>
+                    Pedro Lucas de Oliveira Bezerra RM: 558439 <br>
+                    Renato de Freitas David Campiteli RM: 555267
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
