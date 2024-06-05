@@ -45,9 +45,15 @@
         margin-left: 40px;
     }
     .containerquadro{
-        width: 50%;
+        width: 70%;
     }
     .containertexto{
         height: 90px;
+    }
+    .nomes{
+        width: 80%;
+    }
+    .containerintegrantes{
+        width: 100%;
     }
 }
